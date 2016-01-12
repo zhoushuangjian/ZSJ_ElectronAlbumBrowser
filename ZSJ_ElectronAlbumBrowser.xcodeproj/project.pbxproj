@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163166631C45446F00F2A842 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163166621C45446F00F2A842 /* main.m */; };
+		163166661C45446F00F2A842 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163166651C45446F00F2A842 /* AppDelegate.m */; };
+		163166691C45446F00F2A842 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163166681C45446F00F2A842 /* ViewController.m */; };
+		1631666C1C45446F00F2A842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1631666A1C45446F00F2A842 /* Main.storyboard */; };
+		1631666E1C45446F00F2A842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1631666D1C45446F00F2A842 /* Assets.xcassets */; };
+		163166711C45447000F2A842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1631666F1C45446F00F2A842 /* LaunchScreen.storyboard */; };
+		1631667C1C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1631667B1C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests.m */; };
+		163166871C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163166861C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		163166781C45447000F2A842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163166561C45446F00F2A842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1631665D1C45446F00F2A842;
+			remoteInfo = ZSJ_ElectronAlbumBrowser;
+		};
+		163166831C45447000F2A842 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 163166561C45446F00F2A842 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1631665D1C45446F00F2A842;
+			remoteInfo = ZSJ_ElectronAlbumBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1631665E1C45446F00F2A842 /* ZSJ_ElectronAlbumBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSJ_ElectronAlbumBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		163166621C45446F00F2A842 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		163166641C45446F00F2A842 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		163166651C45446F00F2A842 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		163166671C45446F00F2A842 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		163166681C45446F00F2A842 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1631666B1C45446F00F2A842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1631666D1C45446F00F2A842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		163166701C45446F00F2A842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		163166721C45447000F2A842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163166771C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSJ_ElectronAlbumBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1631667B1C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSJ_ElectronAlbumBrowserTests.m; sourceTree = "<group>"; };
+		1631667D1C45447000F2A842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163166821C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSJ_ElectronAlbumBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		163166861C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSJ_ElectronAlbumBrowserUITests.m; sourceTree = "<group>"; };
+		163166881C45447000F2A842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1631665B1C45446F00F2A842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163166741C45447000F2A842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1631667F1C45447000F2A842 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163166551C45446F00F2A842 = {
+			isa = PBXGroup;
+			children = (
+				163166601C45446F00F2A842 /* ZSJ_ElectronAlbumBrowser */,
+				1631667A1C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests */,
+				163166851C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests */,
+				1631665F1C45446F00F2A842 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1631665F1C45446F00F2A842 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1631665E1C45446F00F2A842 /* ZSJ_ElectronAlbumBrowser.app */,
+				163166771C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests.xctest */,
+				163166821C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		163166601C45446F00F2A842 /* ZSJ_ElectronAlbumBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				163166641C45446F00F2A842 /* AppDelegate.h */,
+				163166651C45446F00F2A842 /* AppDelegate.m */,
+				163166671C45446F00F2A842 /* ViewController.h */,
+				163166681C45446F00F2A842 /* ViewController.m */,
+				1631666A1C45446F00F2A842 /* Main.storyboard */,
+				1631666D1C45446F00F2A842 /* Assets.xcassets */,
+				1631666F1C45446F00F2A842 /* LaunchScreen.storyboard */,
+				163166721C45447000F2A842 /* Info.plist */,
+				163166611C45446F00F2A842 /* Supporting Files */,
+			);
+			path = ZSJ_ElectronAlbumBrowser;
+			sourceTree = "<group>";
+		};
+		163166611C45446F00F2A842 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				163166621C45446F00F2A842 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1631667A1C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				1631667B1C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests.m */,
+				1631667D1C45447000F2A842 /* Info.plist */,
+			);
+			path = ZSJ_ElectronAlbumBrowserTests;
+			sourceTree = "<group>";
+		};
+		163166851C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				163166861C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests.m */,
+				163166881C45447000F2A842 /* Info.plist */,
+			);
+			path = ZSJ_ElectronAlbumBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1631665D1C45446F00F2A842 /* ZSJ_ElectronAlbumBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1631668B1C45447000F2A842 /* Build configuration list for PBXNativeTarget "ZSJ_ElectronAlbumBrowser" */;
+			buildPhases = (
+				1631665A1C45446F00F2A842 /* Sources */,
+				1631665B1C45446F00F2A842 /* Frameworks */,
+				1631665C1C45446F00F2A842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSJ_ElectronAlbumBrowser;
+			productName = ZSJ_ElectronAlbumBrowser;
+			productReference = 1631665E1C45446F00F2A842 /* ZSJ_ElectronAlbumBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		163166761C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1631668E1C45447000F2A842 /* Build configuration list for PBXNativeTarget "ZSJ_ElectronAlbumBrowserTests" */;
+			buildPhases = (
+				163166731C45447000F2A842 /* Sources */,
+				163166741C45447000F2A842 /* Frameworks */,
+				163166751C45447000F2A842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163166791C45447000F2A842 /* PBXTargetDependency */,
+			);
+			name = ZSJ_ElectronAlbumBrowserTests;
+			productName = ZSJ_ElectronAlbumBrowserTests;
+			productReference = 163166771C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		163166811C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163166911C45447000F2A842 /* Build configuration list for PBXNativeTarget "ZSJ_ElectronAlbumBrowserUITests" */;
+			buildPhases = (
+				1631667E1C45447000F2A842 /* Sources */,
+				1631667F1C45447000F2A842 /* Frameworks */,
+				163166801C45447000F2A842 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				163166841C45447000F2A842 /* PBXTargetDependency */,
+			);
+			name = ZSJ_ElectronAlbumBrowserUITests;
+			productName = ZSJ_ElectronAlbumBrowserUITests;
+			productReference = 163166821C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		163166561C45446F00F2A842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "周双建";
+				TargetAttributes = {
+					1631665D1C45446F00F2A842 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YY9THQMRZF;
+					};
+					163166761C45447000F2A842 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YY9THQMRZF;
+						TestTargetID = 1631665D1C45446F00F2A842;
+					};
+					163166811C45447000F2A842 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = YY9THQMRZF;
+						TestTargetID = 1631665D1C45446F00F2A842;
+					};
+				};
+			};
+			buildConfigurationList = 163166591C45446F00F2A842 /* Build configuration list for PBXProject "ZSJ_ElectronAlbumBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 163166551C45446F00F2A842;
+			productRefGroup = 1631665F1C45446F00F2A842 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1631665D1C45446F00F2A842 /* ZSJ_ElectronAlbumBrowser */,
+				163166761C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests */,
+				163166811C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1631665C1C45446F00F2A842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163166711C45447000F2A842 /* LaunchScreen.storyboard in Resources */,
+				1631666E1C45446F00F2A842 /* Assets.xcassets in Resources */,
+				1631666C1C45446F00F2A842 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163166751C45447000F2A842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163166801C45447000F2A842 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1631665A1C45446F00F2A842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163166691C45446F00F2A842 /* ViewController.m in Sources */,
+				163166661C45446F00F2A842 /* AppDelegate.m in Sources */,
+				163166631C45446F00F2A842 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		163166731C45447000F2A842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1631667C1C45447000F2A842 /* ZSJ_ElectronAlbumBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1631667E1C45447000F2A842 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163166871C45447000F2A842 /* ZSJ_ElectronAlbumBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		163166791C45447000F2A842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1631665D1C45446F00F2A842 /* ZSJ_ElectronAlbumBrowser */;
+			targetProxy = 163166781C45447000F2A842 /* PBXContainerItemProxy */;
+		};
+		163166841C45447000F2A842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1631665D1C45446F00F2A842 /* ZSJ_ElectronAlbumBrowser */;
+			targetProxy = 163166831C45447000F2A842 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1631666A1C45446F00F2A842 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1631666B1C45446F00F2A842 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1631666F1C45446F00F2A842 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163166701C45446F00F2A842 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		163166891C45447000F2A842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1631668A1C45447000F2A842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1631668C1C45447000F2A842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSJ_ElectronAlbumBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsj.ZSJ-ElectronAlbumBrowser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1631668D1C45447000F2A842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSJ_ElectronAlbumBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsj.ZSJ-ElectronAlbumBrowser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1631668F1C45447000F2A842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSJ_ElectronAlbumBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsj.ZSJ-ElectronAlbumBrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSJ_ElectronAlbumBrowser.app/ZSJ_ElectronAlbumBrowser";
+			};
+			name = Debug;
+		};
+		163166901C45447000F2A842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZSJ_ElectronAlbumBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsj.ZSJ-ElectronAlbumBrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSJ_ElectronAlbumBrowser.app/ZSJ_ElectronAlbumBrowser";
+			};
+			name = Release;
+		};
+		163166921C45447000F2A842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSJ_ElectronAlbumBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsj.ZSJ-ElectronAlbumBrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSJ_ElectronAlbumBrowser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		163166931C45447000F2A842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZSJ_ElectronAlbumBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zsj.ZSJ-ElectronAlbumBrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZSJ_ElectronAlbumBrowser;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		163166591C45446F00F2A842 /* Build configuration list for PBXProject "ZSJ_ElectronAlbumBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163166891C45447000F2A842 /* Debug */,
+				1631668A1C45447000F2A842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1631668B1C45447000F2A842 /* Build configuration list for PBXNativeTarget "ZSJ_ElectronAlbumBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1631668C1C45447000F2A842 /* Debug */,
+				1631668D1C45447000F2A842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1631668E1C45447000F2A842 /* Build configuration list for PBXNativeTarget "ZSJ_ElectronAlbumBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1631668F1C45447000F2A842 /* Debug */,
+				163166901C45447000F2A842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		163166911C45447000F2A842 /* Build configuration list for PBXNativeTarget "ZSJ_ElectronAlbumBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163166921C45447000F2A842 /* Debug */,
+				163166931C45447000F2A842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 163166561C45446F00F2A842 /* Project object */;
+}
